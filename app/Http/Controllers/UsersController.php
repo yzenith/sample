@@ -13,9 +13,17 @@ class UsersController extends Controller
     {
        return view('users.create');
     }
+<<<<<<< HEAD
 
     public function show(User $user)
     {
        return view('users.show', compact('user'));
     }
+=======
+    public function show(User $user)
+    {
+       return view('users.show',compact('user'));
+    }
+
+>>>>>>> sign-up
 }
